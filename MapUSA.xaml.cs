@@ -119,5 +119,41 @@ namespace HomeSolarSolutions
             getData("4");
             this.Close();
         }
+
+        private void Eugene5(object sender, RoutedEventArgs e)
+        {
+            getData("5");
+            this.Close();
+        }
+
+        private void Bend6(object sender, RoutedEventArgs e)
+        {
+            getData("6");
+            this.Close();
+        }
+
+        private void KFalls7(object sender, RoutedEventArgs e)
+        {
+            getData("7");
+            this.Close();
+        }
+
+        private void EOregon8(object sender, RoutedEventArgs e)
+        {
+            getData("8");
+            this.Close();
+        }
+
+        private void Wallawalla9(object sender, RoutedEventArgs e)
+        {
+            getData("9");
+            this.Close();
+        }
+
+        private void Coast10(object sender, RoutedEventArgs e)
+        {
+            getData("10");
+            this.Close();
+        }
     }
 }

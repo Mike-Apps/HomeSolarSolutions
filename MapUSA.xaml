@@ -186,6 +186,65 @@
             </Button.Background>
         </Button>
 
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="Eugene5" Grid.Column="6" Grid.Row="8"  HorizontalAlignment="Center" Width="17" Height="17" VerticalAlignment="Center">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="Bend6" Grid.Column="8" Grid.Row="8"  HorizontalAlignment="Center" Width="17" Height="17" VerticalAlignment="Center">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="KFalls7" Grid.Column="7" Grid.Row="10"  HorizontalAlignment="Center" Width="17" Height="17" VerticalAlignment="Center">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="EOregon8" Grid.Column="10" Grid.Row="10"  HorizontalAlignment="Center" Width="17" Height="17" VerticalAlignment="Center">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="Wallawalla9" Grid.Column="11" Grid.Row="7"  HorizontalAlignment="Center" Width="17" Height="17" VerticalAlignment="Center">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="Coast10" Grid.Column="5" Grid.Row="6"  HorizontalAlignment="Center" Width="17" Height="17" VerticalAlignment="Bottom" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
 
     </Grid>
 </Window>
