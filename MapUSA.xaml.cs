@@ -36,7 +36,7 @@ namespace HomeSolarSolutions
             SqlConnection cn_connection = new SqlConnection(cn_string);
 
             //First Query
-            String SQLQuery_PanelInfo = $"SELECT optimum_angle, AVGJan, AVGFeb, AVGMar, AVGApr, AVGMay, AVGJune, AVGJuly, AVGAug, AVGSep, AVGOct, AVGNov, AVGDec FROM tbl_SolarData WHERE Id = {index}";
+            String SQLQuery_PanelInfo = $"SELECT optimum_angle, AVGJan, AVGFeb, AVGMar, AVGApr, AVGMay, AVGJune, AVGJuly, AVGAug, AVGSep, AVGOct, AVGNov, AVGDec, max_power_optimum_angle FROM tbl_SolarData WHERE Id = {index}";
             SqlCommand cmd = new SqlCommand(SQLQuery_PanelInfo, cn_connection);
 
             if (cn_connection.State != ConnectionState.Open)
@@ -87,6 +87,14 @@ namespace HomeSolarSolutions
                     _mainWindow.DecInfo.Text = reader[12].ToString();
                     //_mainWindow.DecInfo.Text = (float.Parse(_mainWindow.DecInfo.Text).ToString("N2") + " W");
 
+                    _mainWindow.maxInstPower1KW_Textblock.Text = reader[13].ToString();
+
+                    // Maximum power that charge control system must be able to handle based on array size.
+                    //string maxinstpower = reader[13].ToString();
+                    //float maxInstPowerToFloat = float.Parse(maxinstpower);
+                    //string userInputArraySize = _mainWindow.arraySize.Text;
+                    //float userInputArraySizeFloat = float.Parse(userInputArraySize);
+                    //_mainWindow.maxInstantPower.Text = ((userInputArraySizeFloat / 1000) * maxInstPowerToFloat).ToString();
                 }
             }
             
@@ -153,6 +161,12 @@ namespace HomeSolarSolutions
         private void Coast10(object sender, RoutedEventArgs e)
         {
             getData("10");
+            this.Close();
+        }
+
+        private void JacksonvilleNC11(object sender, RoutedEventArgs e)
+        {
+            getData("11");
             this.Close();
         }
     }

@@ -39,6 +39,7 @@ namespace HomeSolarSolutions
             if (JanInfo.Text == null || JanInfo.Text == "")
             {
                ArrayErrorMessageBlock.Text = "Use the Map button to choose your location.";
+                //arraySize.Text = "1";
             }
 
             else
@@ -64,6 +65,9 @@ namespace HomeSolarSolutions
                         MyArrayOct.Text = (float.Parse(OctInfo.Text) * sizeInWatts).ToString("N2") + " W";
                         MyArrayNov.Text = (float.Parse(NovInfo.Text) * sizeInWatts).ToString("N2") + " W";
                         MyArrayDec.Text = (float.Parse(DecInfo.Text) * sizeInWatts).ToString("N2") + " W";
+
+                        maxInstantPower.Text = (float.Parse(maxInstPower1KW_Textblock.Text) * sizeInWatts).ToString("N2") + " W";
+
 
                     }
                     else

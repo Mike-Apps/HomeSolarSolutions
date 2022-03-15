@@ -107,16 +107,14 @@
         <TextBlock x:Name="JulInfo" Grid.Column="2" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF4FE664"/>
 
         <TextBlock x:Name="PanelAngle" Grid.Column="1" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF4FE664" />
-        <TextBlock Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Your optimum panel angle is:" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" />
-
-
+        <TextBlock Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Your optimum panel angle:" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" />
+        <TextBlock x:Name="maxInstPower1KW_Textblock" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Text="" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF4FE664" Visibility="Hidden" />
 
         <TextBlock Text="This is your Array's Potential Daily output in kWh. " TextWrapping="NoWrap" VerticalAlignment="Center" HorizontalAlignment="Left"
                    Grid.Column="3" Grid.Row="5" Grid.ColumnSpan="6" FontSize="16" FontWeight="Bold" Height="auto" Width="auto"/>
 
         <TextBlock Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Enter your array size in Watts:" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" />
         <TextBox x:Name="arraySize" Grid.Column="1"  Grid.Row="6" TextWrapping="Wrap" VerticalAlignment="Center"  HorizontalAlignment="Center" Width="120" TextChanged="TextBox_TextChanged"/>
-        <Button Content="Calculate my array size" Grid.Row="7"  HorizontalAlignment="Center"   VerticalAlignment="Center" Width="170"/>
         <TextBlock x:Name="ArrayErrorMessageBlock" Grid.Row="7" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Text="" TextWrapping="Wrap" FontSize="10" FontWeight="Bold" Foreground="Red" />
 
         <TextBlock Text="Jan" TextWrapping="Wrap" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="2" Grid.Row="6" FontSize="14" FontWeight="Bold" Height="37" />
@@ -151,8 +149,10 @@
         <TextBox x:Name="powerRequirementsTextBox" Grid.Column="2"  Grid.Row="11" TextWrapping="Wrap" VerticalAlignment="Center"  HorizontalAlignment="Center" Width="100" TextChanged="TextBox_TextChanged"/>
         <Button x:Name="homeRequirementsButton" Content="Home Requirements" Grid.Row="10" Grid.Column="2" HorizontalAlignment="Center"   VerticalAlignment="Center" Width="100" FontSize="10"/>
 
-        <TextBlock Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" Text="How much will my roof fit?" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" />
-        <Button Content="Let's find out" Grid.Row="9"  HorizontalAlignment="Center"   VerticalAlignment="Center" Width="170"/>
+        <TextBlock Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" Text="How much will my roof fit?" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" />
+        <Button Content="Let's find out" Grid.Row="7" Grid.Column="1"  HorizontalAlignment="Center"   VerticalAlignment="Center" Width="120"/>
+        <TextBlock Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Your charge system should be built to handle:" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" />
+        <TextBlock x:Name="maxInstantPower" Grid.Column="1" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF4FE664"/>
 
 
     </Grid>
