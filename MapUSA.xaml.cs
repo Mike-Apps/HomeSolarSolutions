@@ -87,14 +87,10 @@ namespace HomeSolarSolutions
                     _mainWindow.DecInfo.Text = reader[12].ToString();
                     //_mainWindow.DecInfo.Text = (float.Parse(_mainWindow.DecInfo.Text).ToString("N2") + " W");
 
-                    _mainWindow.maxInstPower1KW_Textblock.Text = reader[13].ToString();
 
                     // Maximum power that charge control system must be able to handle based on array size.
-                    //string maxinstpower = reader[13].ToString();
-                    //float maxInstPowerToFloat = float.Parse(maxinstpower);
-                    //string userInputArraySize = _mainWindow.arraySize.Text;
-                    //float userInputArraySizeFloat = float.Parse(userInputArraySize);
-                    //_mainWindow.maxInstantPower.Text = ((userInputArraySizeFloat / 1000) * maxInstPowerToFloat).ToString();
+                    // I sent this to a hidden text box on mainWindow
+                    _mainWindow.maxInstPower1KW_Textblock.Text = reader[13].ToString();
                 }
             }
             
@@ -167,6 +163,121 @@ namespace HomeSolarSolutions
         private void JacksonvilleNC11(object sender, RoutedEventArgs e)
         {
             getData("11");
+            this.Close();
+        }
+
+        private void Charlotte12(object sender, RoutedEventArgs e)
+        {
+            getData("12");
+            this.Close();
+        }
+
+        private void Asheville13(object sender, RoutedEventArgs e)
+        {
+            getData("13");
+            this.Close();
+        }
+
+        private void Raleigh14(object sender, RoutedEventArgs e)
+        {
+            getData("14");
+            this.Close();
+        }
+
+        private void Norfolk15(object sender, RoutedEventArgs e)
+        {
+            getData("15");
+            this.Close();
+        }
+
+        private void Richmond16(object sender, RoutedEventArgs e)
+        {
+            getData("16");
+            this.Close();
+        }
+
+        private void Roanoke17(object sender, RoutedEventArgs e)
+        {
+            getData("17");
+            this.Close();
+        }
+
+        private void VirginiaWestSide18(object sender, RoutedEventArgs e)
+        {
+            getData("18");
+            this.Close();
+        }
+
+        private void DC19(object sender, RoutedEventArgs e)
+        {
+            getData("19");
+            this.Close();
+
+        }
+
+        private void Baltimore20(object sender, RoutedEventArgs e)
+        {
+            getData("20");
+            this.Close();
+        }
+
+        private void WestMD21(object sender, RoutedEventArgs e)
+        {
+            getData("21");
+            this.Close();
+        }
+
+        private void Charleston22(object sender, RoutedEventArgs e)
+        {
+            getData("22");
+            this.Close();
+        }
+
+        private void MiddleDW23(object sender, RoutedEventArgs e)
+        {
+            getData("23");
+            this.Close();
+        }
+
+        private void MiddleDW24(object sender, RoutedEventArgs e)
+        {
+            getData("24");
+            this.Close();
+        }
+
+        private void MiddlePA25(object sender, RoutedEventArgs e)
+        {
+            getData("25");
+            this.Close();
+        }
+
+        private void WestPA27(object sender, RoutedEventArgs e)
+        {
+            getData("27");
+            this.Close();
+        }
+
+        private void WestPA28(object sender, RoutedEventArgs e)
+        {
+            getData("28");
+            this.Close();
+        }
+
+        private void Columbia29(object sender, RoutedEventArgs e)
+        {
+            getData("29");
+            this.Close();
+        }
+
+        private void NorthEastSC30(object sender, RoutedEventArgs e)
+        {
+            getData("30");
+            this.Close();
+        }
+
+        private void MtZion31(object sender, RoutedEventArgs e)
+        {
+            getData("31");
             this.Close();
         }
     }

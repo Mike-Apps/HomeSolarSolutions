@@ -34,7 +34,7 @@
 
 
         </Grid.RowDefinitions>
-        <Rectangle Grid.RowSpan="6" Grid.ColumnSpan="8" Margin="0,0,0,29" >
+        <Rectangle Grid.RowSpan="5" Grid.ColumnSpan="8"  >
             <Rectangle.Fill>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF2E2D2D"/>
@@ -42,7 +42,7 @@
                 </LinearGradientBrush>
             </Rectangle.Fill>
         </Rectangle>
-        <Rectangle Grid.Row="5" Grid.ColumnSpan="8" Grid.RowSpan="5" Margin="0,0,0,0">
+        <Rectangle Grid.Row="5" Grid.ColumnSpan="8" Grid.RowSpan="5">
             <Rectangle.Fill>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF0B58DE"/>
@@ -76,7 +76,7 @@
             </Button.Effect>
         </Button>
         <TextBlock Margin="32,0,32,0" Text="Use the Button to find a location nearest you." TextWrapping="Wrap" VerticalAlignment="Center" Grid.Column="0" FontSize="14" FontWeight="Bold" Height="37"/>
-        <TextBlock Text="Average kWh produced in one day for a 1kW solar array. " TextWrapping="NoWrap" VerticalAlignment="Center" HorizontalAlignment="Left"
+        <TextBlock Text="Average kW/h produced in one day for a 1kW solar array. " TextWrapping="NoWrap" VerticalAlignment="Center" HorizontalAlignment="Left"
                    Grid.Column="2" Grid.ColumnSpan="5" FontSize="16" FontWeight="Bold" Height="auto" Width="auto" Margin="115,0,0,0" />
 
         <TextBlock Text="Jan" TextWrapping="Wrap" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="2" Grid.Row="1" FontSize="14" FontWeight="Bold" Height="37" />
@@ -110,9 +110,12 @@
         <TextBlock Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Your optimum panel angle:" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" />
         <TextBlock x:Name="maxInstPower1KW_Textblock" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Text="" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF4FE664" Visibility="Hidden" />
 
-        <TextBlock Text="This is your Array's Potential Daily output in kWh. " TextWrapping="NoWrap" VerticalAlignment="Center" HorizontalAlignment="Left"
+        <TextBlock Text="This is your Array's Potential Daily output in Watt Hours. " TextWrapping="NoWrap" VerticalAlignment="Center" HorizontalAlignment="Left"
                    Grid.Column="3" Grid.Row="5" Grid.ColumnSpan="6" FontSize="16" FontWeight="Bold" Height="auto" Width="auto"/>
 
+
+        <TextBlock Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Average Daily Home Requirements:" TextWrapping="Wrap" FontSize="12" FontWeight="Bold" />
+        <TextBlock Grid.Row="5" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Text="31,000 W/h" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" />
         <TextBlock Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Enter your array size in Watts:" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" />
         <TextBox x:Name="arraySize" Grid.Column="1"  Grid.Row="6" TextWrapping="Wrap" VerticalAlignment="Center"  HorizontalAlignment="Center" Width="120" TextChanged="TextBox_TextChanged"/>
         <TextBlock x:Name="ArrayErrorMessageBlock" Grid.Row="7" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Text="" TextWrapping="Wrap" FontSize="10" FontWeight="Bold" Foreground="Red" />
