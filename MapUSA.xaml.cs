@@ -280,5 +280,47 @@ namespace HomeSolarSolutions
             getData("31");
             this.Close();
         }
+
+        private void Atlanta32(object sender, RoutedEventArgs e)
+        {
+            getData("32");
+            this.Close();
+        }
+
+        private void Douglas33(object sender, RoutedEventArgs e)
+        {
+            getData("33");
+            this.Close();
+        }
+
+        private void Tallahassee34(object sender, RoutedEventArgs e)
+        {
+            getData("34");
+            this.Close();
+        }
+
+        private void Pensacola35(object sender, RoutedEventArgs e)
+        {
+            getData("35");
+            this.Close();
+        }
+
+        private void Gainesville36(object sender, RoutedEventArgs e)
+        {
+            getData("36");
+            this.Close();
+        }
+
+        private void Tampa37(object sender, RoutedEventArgs e)
+        {
+            getData("37");
+            this.Close();
+        }
+
+        private void Miami38(object sender, RoutedEventArgs e)
+        {
+            getData("38");
+            this.Close();
+        }
     }
 }
