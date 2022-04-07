@@ -52,20 +52,20 @@ namespace HomeSolarSolutions
                     {
                         float sizeInKw = float.Parse(arraySize.Text);
                         float sizeInWatts = sizeInKw / 1000;
-                        
-                        MyArrayJan.Text = (float.Parse(JanInfo.Text.Remove(JanInfo.Text.Length -4)) * sizeInWatts).ToString("N2") + " W/h";
-                        MyArrayFeb.Text = (float.Parse(FebInfo.Text.Remove(FebInfo.Text.Length - 4)) * sizeInWatts).ToString("N2") + " W/h";
-                        MyArrayMar.Text = (float.Parse(MarInfo.Text.Remove(MarInfo.Text.Length - 4)) * sizeInWatts).ToString("N2") + " W/h";
-                        MyArrayApr.Text = (float.Parse(AprInfo.Text.Remove(AprInfo.Text.Length - 4)) * sizeInWatts).ToString("N2") + " W/h";
-                        MyArrayMay.Text = (float.Parse(MayInfo.Text.Remove(MayInfo.Text.Length - 4)) * sizeInWatts).ToString("N2") + " W/h";
-                        MyArrayJun.Text = (float.Parse(JunInfo.Text.Remove(JulInfo.Text.Length - 4)) * sizeInWatts).ToString("N2") + " W/h";
-                        MyArrayJul.Text = (float.Parse(JulInfo.Text.Remove(JulInfo.Text.Length - 4)) * sizeInWatts).ToString("N2") + " W/h";
-                        MyArrayAug.Text = (float.Parse(AugInfo.Text.Remove(AugInfo.Text.Length - 4)) * sizeInWatts).ToString("N2") + " W/h";
-                        MyArraySep.Text = (float.Parse(SepInfo.Text.Remove(SepInfo.Text.Length - 4)) * sizeInWatts).ToString("N2") + " W/h";
-                        MyArrayOct.Text = (float.Parse(OctInfo.Text.Remove(OctInfo.Text.Length - 4)) * sizeInWatts).ToString("N2") + " W/h";
-                        MyArrayNov.Text = (float.Parse(NovInfo.Text.Remove(NovInfo.Text.Length - 4)) * sizeInWatts).ToString("N2") + " W/h";
-                        MyArrayDec.Text = (float.Parse(DecInfo.Text.Remove(DecInfo.Text.Length - 4)) * sizeInWatts).ToString("N2") + " W/h";
-                        
+
+                        MyArrayJan.Text = (float.Parse(JanInfo.Text.Remove(JanInfo.Text.Length - 4)) * sizeInWatts).ToString("N2") + " W/h";
+                        MyArrayFeb.Text = (float.Parse(FebInfo.Text.Remove(JanInfo.Text.Length - 4)) * sizeInWatts).ToString("N2") + " W/h";
+                        MyArrayMar.Text = (float.Parse(MarInfo.Text.Remove(JanInfo.Text.Length - 4)) * sizeInWatts).ToString("N2") + " W/h";
+                        MyArrayApr.Text = (float.Parse(AprInfo.Text.Remove(JanInfo.Text.Length - 4)) * sizeInWatts).ToString("N2") + " W/h";
+                        MyArrayMay.Text = (float.Parse(MayInfo.Text.Remove(JanInfo.Text.Length - 4)) * sizeInWatts).ToString("N2") + " W/h";
+                        MyArrayJun.Text = (float.Parse(JunInfo.Text.Remove(JanInfo.Text.Length - 4)) * sizeInWatts).ToString("N2") + " W/h";
+                        MyArrayJul.Text = (float.Parse(JulInfo.Text.Remove(JanInfo.Text.Length - 4)) * sizeInWatts).ToString("N2") + " W/h";
+                        MyArrayAug.Text = (float.Parse(AugInfo.Text.Remove(JanInfo.Text.Length - 4)) * sizeInWatts).ToString("N2") + " W/h";
+                        MyArraySep.Text = (float.Parse(SepInfo.Text.Remove(JanInfo.Text.Length - 4)) * sizeInWatts).ToString("N2") + " W/h";
+                        MyArrayOct.Text = (float.Parse(OctInfo.Text.Remove(JanInfo.Text.Length - 4)) * sizeInWatts).ToString("N2") + " W/h";
+                        MyArrayNov.Text = (float.Parse(NovInfo.Text.Remove(JanInfo.Text.Length - 4)) * sizeInWatts).ToString("N2") + " W/h";
+                        MyArrayDec.Text = (float.Parse(DecInfo.Text.Remove(JanInfo.Text.Length - 4)) * sizeInWatts).ToString("N2") + " W/h";
+
                         maxInstantPower.Text = (float.Parse(maxInstPower1KW_Textblock.Text) * sizeInWatts).ToString("N2") + " W";
 
 

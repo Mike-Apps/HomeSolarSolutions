@@ -7,6 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="ButtonGreen.png" />
+    <None Remove="ButtonGreenedit.png" />
+    <None Remove="ButtonRed.png" />
     <None Remove="Mike Ott 400x400 Picture.png" />
     <None Remove="PVPowerMap.png" />
   </ItemGroup>
@@ -16,6 +19,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="ButtonGreen.png" />
+    <Resource Include="ButtonGreenedit.png" />
+    <Resource Include="ButtonRed.png" />
     <Resource Include="PVPowerMap.png" />
   </ItemGroup>
 

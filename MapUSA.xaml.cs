@@ -49,11 +49,9 @@ namespace HomeSolarSolutions
                 while (reader.Read())
                 {
                     _mainWindow.PanelAngle.Text = reader[0].ToString() + " degrees";  //_mainWindow.SolarCalculation...links MainWindow elements to this class
-
-                   
-                    //_mainWindow.JanInfo.Text = reader[1].ToString();
+                  
+                    //_mainWindow.JanInfo.Text = (float.Parse(_mainWindow.JanInfo.Text).ToString("N2") + " W");
                     _mainWindow.JanInfo.Text = (float.Parse(reader[1].ToString()).ToString("N2")) + " W/h";
-                    //MyArrayJan.Text = (float.Parse(JanInfo.Text) * sizeInWatts).ToString("N2") + " W/h";
 
                     _mainWindow.FebInfo.Text = (float.Parse(reader[2].ToString()).ToString("N2")) + " W/h";
                     // _mainWindow.FebInfo.Text = (float.Parse(_mainWindow.FebInfo.Text).ToString("N2") + " W");
