@@ -75,7 +75,7 @@
                 <DropShadowEffect ShadowDepth="8" BlurRadius="8"/>
             </Button.Effect>
         </Button>
-        <TextBlock Margin="32,0,32,0" Text="Use the Button to find a location nearest you." TextWrapping="Wrap" VerticalAlignment="Center" Grid.Column="0" FontSize="14" FontWeight="Bold" Height="37"/>
+        <TextBlock Margin="32,0,32,0" Text="Click the map and select a location nearest you." TextWrapping="Wrap" VerticalAlignment="Center" Grid.Column="0" FontSize="14" FontWeight="Bold" Height="37"/>
         <TextBlock Text="Average power produced in one day for a 1kW solar array. " TextWrapping="NoWrap" VerticalAlignment="Center" HorizontalAlignment="Left"
                    Grid.Column="2" Grid.ColumnSpan="5" FontSize="16" FontWeight="Bold" Height="auto" Width="auto" Margin="115,0,0,0" />
 
@@ -93,18 +93,18 @@
         <TextBlock Text="Jul" TextWrapping="Wrap" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="2" Grid.Row="3" FontSize="14" FontWeight="Bold" Height="37" />
 
 
-        <TextBlock x:Name="JanInfo" Grid.Column="2" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF4FE664" />
-        <TextBlock x:Name="FebInfo" Grid.Column="3" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF4FE664" />
-        <TextBlock x:Name="MarInfo" Grid.Column="4" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF4FE664"/>
-        <TextBlock x:Name="AprInfo" Grid.Column="5" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF4FE664" />
-        <TextBlock x:Name="MayInfo" Grid.Column="6" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF4FE664"/>
-        <TextBlock x:Name="JunInfo" Grid.Column="7" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF4FE664"/>
-        <TextBlock x:Name="DecInfo" Grid.Column="7" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF4FE664"/>
-        <TextBlock x:Name="NovInfo" Grid.Column="6" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF4FE664"/>
-        <TextBlock x:Name="OctInfo" Grid.Column="5" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF4FE664"/>
-        <TextBlock x:Name="SepInfo" Grid.Column="4" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF4FE664"/>
-        <TextBlock x:Name="AugInfo" Grid.Column="3" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF4FE664"/>
-        <TextBlock x:Name="JulInfo" Grid.Column="2" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF4FE664"/>
+        <TextBlock x:Name="JanInfo" Grid.Column="2" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF022D05"/>
+        <TextBlock x:Name="FebInfo" Grid.Column="3" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF022D05"/>
+        <TextBlock x:Name="MarInfo" Grid.Column="4" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF022D05"/>
+        <TextBlock x:Name="AprInfo" Grid.Column="5" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF022D05"/>
+        <TextBlock x:Name="MayInfo" Grid.Column="6" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF022D05"/>
+        <TextBlock x:Name="JunInfo" Grid.Column="7" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF022D05"/>
+        <TextBlock x:Name="DecInfo" Grid.Column="7" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF022D05"/>
+        <TextBlock x:Name="NovInfo" Grid.Column="6" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF022D05"/>
+        <TextBlock x:Name="OctInfo" Grid.Column="5" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF022D05"/>
+        <TextBlock x:Name="SepInfo" Grid.Column="4" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF022D05"/>
+        <TextBlock x:Name="AugInfo" Grid.Column="3" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF022D05"/>
+        <TextBlock x:Name="JulInfo" Grid.Column="2" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF022D05"/>
 
         <TextBlock x:Name="PanelAngle" Grid.Column="1" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF4FE664" />
         <TextBlock Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Your optimum panel angle:" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" />
@@ -114,7 +114,7 @@
                    Grid.Column="3" Grid.Row="5" Grid.ColumnSpan="6" FontSize="16" FontWeight="Bold" Height="auto" Width="auto"/>
 
 
-        <TextBlock Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Average Daily Home Requirements:" TextWrapping="Wrap" FontSize="12" FontWeight="Bold" />
+        <TextBlock Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Text="USA average daily home usage:" TextWrapping="Wrap" FontSize="13" FontWeight="Bold" Width="195" />
         <TextBlock Grid.Row="5" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Text="31,000 W/h" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" />
         <TextBlock Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Enter your array size in Watts:" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" />
         <TextBox x:Name="arraySize" Grid.Column="1"  Grid.Row="6" TextWrapping="Wrap" VerticalAlignment="Center"  HorizontalAlignment="Center" Width="120" TextChanged="TextBox_TextChanged"/>
@@ -133,18 +133,18 @@
         <TextBlock Text="Nov" TextWrapping="Wrap" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="6" Grid.Row="8" FontSize="14" FontWeight="Bold" Height="37" />
         <TextBlock Text="Dec" TextWrapping="Wrap" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="7" Grid.Row="8" FontSize="14" FontWeight="Bold" Height="37" />
 
-        <TextBlock x:Name="MyArrayJan" Grid.Column="2" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF4FE664"/>
-        <TextBlock x:Name="MyArrayFeb" Grid.Column="3" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF4FE664"/>
-        <TextBlock x:Name="MyArrayMar" Grid.Column="4" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF4FE664"/>
-        <TextBlock x:Name="MyArrayApr" Grid.Column="5" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF4FE664"/>
-        <TextBlock x:Name="MyArrayMay" Grid.Column="6" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF4FE664"/>
-        <TextBlock x:Name="MyArrayJun" Grid.Column="7" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF4FE664"/>
-        <TextBlock x:Name="MyArrayJul" Grid.Column="2" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF4FE664"/>
-        <TextBlock x:Name="MyArrayAug" Grid.Column="3" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF4FE664"/>
-        <TextBlock x:Name="MyArraySep" Grid.Column="4" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF4FE664"/>
-        <TextBlock x:Name="MyArrayOct" Grid.Column="5" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF4FE664"/>
-        <TextBlock x:Name="MyArrayNov" Grid.Column="6" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF4FE664"/>
-        <TextBlock x:Name="MyArrayDec" Grid.Column="7" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF4FE664"/>
+        <TextBlock x:Name="MyArrayJan" Grid.Column="2" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF36DE4D"/>
+        <TextBlock x:Name="MyArrayFeb" Grid.Column="3" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF36DE4D"/>
+        <TextBlock x:Name="MyArrayMar" Grid.Column="4" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF36DE4D"/>
+        <TextBlock x:Name="MyArrayApr" Grid.Column="5" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF36DE4D"/>
+        <TextBlock x:Name="MyArrayMay" Grid.Column="6" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF36DE4D"/>
+        <TextBlock x:Name="MyArrayJun" Grid.Column="7" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF36DE4D"/>
+        <TextBlock x:Name="MyArrayJul" Grid.Column="2" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF36DE4D"/>
+        <TextBlock x:Name="MyArrayAug" Grid.Column="3" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF36DE4D"/>
+        <TextBlock x:Name="MyArraySep" Grid.Column="4" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF36DE4D"/>
+        <TextBlock x:Name="MyArrayOct" Grid.Column="5" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF36DE4D"/>
+        <TextBlock x:Name="MyArrayNov" Grid.Column="6" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF36DE4D"/>
+        <TextBlock x:Name="MyArrayDec" Grid.Column="7" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF36DE4D"/>
 
 
         <TextBlock Grid.Row="10" Grid.ColumnSpan="2" HorizontalAlignment="Left" VerticalAlignment="Center" Text="What are my power requirements?" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Margin="8,0,0,0" />
@@ -152,7 +152,7 @@
         <TextBox x:Name="powerRequirementsTextBox" Grid.Column="2"  Grid.Row="11" TextWrapping="Wrap" VerticalAlignment="Center"  HorizontalAlignment="Center" Width="100" TextChanged="TextBox_TextChanged"/>
         <Button x:Name="homeRequirementsButton" Content="Home Requirements" Grid.Row="10" Grid.Column="2" HorizontalAlignment="Center"   VerticalAlignment="Center" Width="100" FontSize="10"/>
 
-        <TextBlock Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" Text="How much will my roof fit?" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" />
+        <TextBlock Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" Text="How many panels fit on my roo?" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" />
         <Button Content="Let's find out" Grid.Row="7" Grid.Column="1"  HorizontalAlignment="Center"   VerticalAlignment="Center" Width="120"/>
         <TextBlock Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Your charge system should be built to handle:" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" />
         <TextBlock x:Name="maxInstantPower" Grid.Column="1" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF4FE664"/>
