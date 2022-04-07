@@ -76,7 +76,7 @@
             </Button.Effect>
         </Button>
         <TextBlock Margin="32,0,32,0" Text="Use the Button to find a location nearest you." TextWrapping="Wrap" VerticalAlignment="Center" Grid.Column="0" FontSize="14" FontWeight="Bold" Height="37"/>
-        <TextBlock Text="Average kW/h produced in one day for a 1kW solar array. " TextWrapping="NoWrap" VerticalAlignment="Center" HorizontalAlignment="Left"
+        <TextBlock Text="Average power produced in one day for a 1kW solar array. " TextWrapping="NoWrap" VerticalAlignment="Center" HorizontalAlignment="Left"
                    Grid.Column="2" Grid.ColumnSpan="5" FontSize="16" FontWeight="Bold" Height="auto" Width="auto" Margin="115,0,0,0" />
 
         <TextBlock Text="Jan" TextWrapping="Wrap" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="2" Grid.Row="1" FontSize="14" FontWeight="Bold" Height="37" />

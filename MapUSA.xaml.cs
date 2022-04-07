@@ -50,41 +50,42 @@ namespace HomeSolarSolutions
                 {
                     _mainWindow.PanelAngle.Text = reader[0].ToString() + " degrees";  //_mainWindow.SolarCalculation...links MainWindow elements to this class
 
+                   
+                    //_mainWindow.JanInfo.Text = reader[1].ToString();
+                    _mainWindow.JanInfo.Text = (float.Parse(reader[1].ToString()).ToString("N2")) + " W/h";
+                    //MyArrayJan.Text = (float.Parse(JanInfo.Text) * sizeInWatts).ToString("N2") + " W/h";
 
-                    _mainWindow.JanInfo.Text = reader[1].ToString();
-                    //_mainWindow.JanInfo.Text = (float.Parse(_mainWindow.JanInfo.Text).ToString("N2") + " W");
+                    _mainWindow.FebInfo.Text = (float.Parse(reader[2].ToString()).ToString("N2")) + " W/h";
+                    // _mainWindow.FebInfo.Text = (float.Parse(_mainWindow.FebInfo.Text).ToString("N2") + " W");
 
-                    _mainWindow.FebInfo.Text = reader[2].ToString();
-                   // _mainWindow.FebInfo.Text = (float.Parse(_mainWindow.FebInfo.Text).ToString("N2") + " W");
+                    _mainWindow.MarInfo.Text = (float.Parse(reader[3].ToString()).ToString("N2")) + " W/h";
+                    // _mainWindow.MarInfo.Text = (float.Parse(_mainWindow.MarInfo.Text).ToString("N2") + " W");
 
-                    _mainWindow.MarInfo.Text = reader[3].ToString();
-                   // _mainWindow.MarInfo.Text = (float.Parse(_mainWindow.MarInfo.Text).ToString("N2") + " W");
+                    _mainWindow.AprInfo.Text = (float.Parse(reader[4].ToString()).ToString("N2")) + " W/h";
+                    // _mainWindow.AprInfo.Text = (float.Parse(_mainWindow.AprInfo.Text).ToString("N2") + " W");
 
-                    _mainWindow.AprInfo.Text = reader[4].ToString();
-                   // _mainWindow.AprInfo.Text = (float.Parse(_mainWindow.AprInfo.Text).ToString("N2") + " W");
+                    _mainWindow.MayInfo.Text = (float.Parse(reader[5].ToString()).ToString("N2")) + " W/h";
+                    // _mainWindow.MayInfo.Text = (float.Parse(_mainWindow.MayInfo.Text).ToString("N2") + " W");
 
-                    _mainWindow.MayInfo.Text = reader[5].ToString();
-                   // _mainWindow.MayInfo.Text = (float.Parse(_mainWindow.MayInfo.Text).ToString("N2") + " W");
-
-                    _mainWindow.JunInfo.Text = reader[6].ToString();
+                    _mainWindow.JunInfo.Text = (float.Parse(reader[6].ToString()).ToString("N2")) + " W/h";
                     //_mainWindow.JunInfo.Text = (float.Parse(_mainWindow.JunInfo.Text).ToString("N2") + " W");
 
-                    _mainWindow.JulInfo.Text = reader[7].ToString();
-                   // _mainWindow.JulInfo.Text = (float.Parse(_mainWindow.JulInfo.Text).ToString("N2") + " W");
+                    _mainWindow.JulInfo.Text = (float.Parse(reader[7].ToString()).ToString("N2")) + " W/h";
+                    // _mainWindow.JulInfo.Text = (float.Parse(_mainWindow.JulInfo.Text).ToString("N2") + " W");
 
-                    _mainWindow.AugInfo.Text = reader[8].ToString();
-                   // _mainWindow.AugInfo.Text = (float.Parse(_mainWindow.AugInfo.Text).ToString("N2") + " W");
+                    _mainWindow.AugInfo.Text = (float.Parse(reader[8].ToString()).ToString("N2")) + " W/h";
+                    // _mainWindow.AugInfo.Text = (float.Parse(_mainWindow.AugInfo.Text).ToString("N2") + " W");
 
-                    _mainWindow.SepInfo.Text = reader[9].ToString();
-                   // _mainWindow.SepInfo.Text = (float.Parse(_mainWindow.SepInfo.Text).ToString("N2") + " W");
+                    _mainWindow.SepInfo.Text = (float.Parse(reader[9].ToString()).ToString("N2")) + " W/h";
+                    // _mainWindow.SepInfo.Text = (float.Parse(_mainWindow.SepInfo.Text).ToString("N2") + " W");
 
-                    _mainWindow.OctInfo.Text = reader[10].ToString();
+                    _mainWindow.OctInfo.Text = (float.Parse(reader[10].ToString()).ToString("N2")) + " W/h";
                     //_mainWindow.OctInfo.Text = (float.Parse(_mainWindow.OctInfo.Text).ToString("N2") + " W");
 
-                    _mainWindow.NovInfo.Text = reader[11].ToString();
-                   // _mainWindow.NovInfo.Text = (float.Parse(_mainWindow.NovInfo.Text).ToString("N2") + " W");
+                    _mainWindow.NovInfo.Text = (float.Parse(reader[11].ToString()).ToString("N2")) + " W/h";
+                    // _mainWindow.NovInfo.Text = (float.Parse(_mainWindow.NovInfo.Text).ToString("N2") + " W");
 
-                    _mainWindow.DecInfo.Text = reader[12].ToString();
+                    _mainWindow.DecInfo.Text = (float.Parse(reader[12].ToString()).ToString("N2")) + " W/h";
                     //_mainWindow.DecInfo.Text = (float.Parse(_mainWindow.DecInfo.Text).ToString("N2") + " W");
 
 
