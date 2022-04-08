@@ -393,5 +393,11 @@ namespace HomeSolarSolutions
             getData("58");
             this.Close();
         }
+
+        private void IndianaNorthE59(object sender, RoutedEventArgs e)
+        {
+            getData("59");
+            this.Close();
+        }
     }
 }
