@@ -77,5 +77,28 @@ namespace HomeSolarSolutions
                 }
             }
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            House house = new House(this);
+            house.Show();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            string message = "NREL https://www.nrel.gov/ for the beautiful Map.\n" +
+                "Sengupta, M., Y. Xie, A. Lopez, A. Habte, \n" +
+                "G. Maclaurin, and J. Shelby. 2018.\n" +
+                "The National Solar Radiation Data Base(NSRDB).\n" +
+                "Renewable and Sustainable Energy Reviews  89 (June): 51-60.\n" +
+                "\n" +
+                "and\n" +
+                "\n" +
+                "https://globalsolaratlas.info \n" +
+                " for power availability based on area data";
+
+
+            MessageBox.Show(message,"Special Thanks to: ", MessageBoxButton.OK);
+        }
     }
 }

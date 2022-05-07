@@ -399,5 +399,11 @@ namespace HomeSolarSolutions
             getData("59");
             this.Close();
         }
+
+        private void SouthIndiana60(object sender, RoutedEventArgs e)
+        {
+            getData("60");
+            this.Close();
+        }
     }
 }
