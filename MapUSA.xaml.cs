@@ -405,5 +405,83 @@ namespace HomeSolarSolutions
             getData("60");
             this.Close();
         }
+
+        private void Indianapolis61(object sender, RoutedEventArgs e)
+        {
+            getData("61");
+            this.Close();
+        }
+
+        private void Chicago62(object sender, RoutedEventArgs e)
+        {
+            getData("62");
+            this.Close();
+        }
+
+        private void Middletown63(object sender, RoutedEventArgs e)
+        {
+            getData("63");
+            this.Close();
+        }
+
+        private void Carbondale64(object sender, RoutedEventArgs e)
+        {
+            getData("64");
+            this.Close();
+        }
+
+        private void NorthWisconsin65(object sender, RoutedEventArgs e)
+        {
+            getData("65");
+            this.Close();
+        }
+
+        private void MidWisconsin66(object sender, RoutedEventArgs e)
+        {
+            getData("66");
+            this.Close();
+        }
+
+        private void Milwaukee67(object sender, RoutedEventArgs e)
+        {
+            getData("67");
+            this.Close();
+        }
+
+        private void NorthMinnesota68(object sender, RoutedEventArgs e)
+        {
+            getData("68");
+            this.Close();
+        }
+
+        private void MidMinnesota69(object sender, RoutedEventArgs e)
+        {
+            getData("69");
+            this.Close();
+        }
+
+        private void SouthMinnesota70(object sender, RoutedEventArgs e)
+        {
+            getData("70");
+            this.Close();
+        }
+
+        private void CedarRapids71(object sender, RoutedEventArgs e)
+        {
+            getData("71");
+            this.Close();
+        }
+
+        private void CedarRapids72(object sender, RoutedEventArgs e)
+        {
+            getData("72");
+            this.Close();
+        }
+
+        private void MidIowa73(object sender, RoutedEventArgs e)
+        {
+            getData("73");
+            this.Close();
+        }
     }
 }

@@ -634,6 +634,126 @@
         </Button>
 
 
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="Indianapolis61" Grid.Column="45" Grid.Row="17"  HorizontalAlignment="Left" Width="17" Grid.RowSpan="3" VerticalAlignment="Top" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="Chicago62" Grid.Column="42" Grid.Row="14"  HorizontalAlignment="Left" Width="17" Grid.RowSpan="3" VerticalAlignment="Top" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="Middletown63" Grid.Column="41" Grid.Row="17"  HorizontalAlignment="Left" Width="17" Grid.RowSpan="3" VerticalAlignment="Top" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="Carbondale64" Grid.Column="42" Grid.Row="20"  HorizontalAlignment="Left" Width="17" Grid.RowSpan="3" VerticalAlignment="Top" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="NorthWisconsin65" Grid.Column="40" Grid.Row="8"  HorizontalAlignment="Left" Width="17" Grid.RowSpan="3" VerticalAlignment="Top" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="MidWisconsin66" Grid.Column="40" Grid.Row="11"  HorizontalAlignment="Left" Width="17" Grid.RowSpan="3" VerticalAlignment="Top" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="Milwaukee67" Grid.Column="42" Grid.Row="12"  HorizontalAlignment="Left" Width="17" Grid.RowSpan="3" VerticalAlignment="Top" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="NorthMinnesota68" Grid.Column="37" Grid.Row="6"  HorizontalAlignment="Left" Width="17" Grid.RowSpan="3" VerticalAlignment="Top" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="MidMinnesota69" Grid.Column="34" Grid.Row="9"  HorizontalAlignment="Left" Width="17" Grid.RowSpan="3" VerticalAlignment="Top" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="SouthMinnesota70" Grid.Column="35" Grid.Row="11"  HorizontalAlignment="Left" Width="17" Grid.RowSpan="3" VerticalAlignment="Top" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="CedarRapids71" Grid.Column="39" Grid.Row="14"  HorizontalAlignment="Left" Width="17" Grid.RowSpan="3" VerticalAlignment="Top" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="CedarRapids72" Grid.Column="35" Grid.Row="15"  HorizontalAlignment="Left" Width="17" Grid.RowSpan="3" VerticalAlignment="Top" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="MidIowa73" Grid.Column="36" Grid.Row="13"  HorizontalAlignment="Left" Width="17" Grid.RowSpan="3" VerticalAlignment="Top" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+
+
+
 
 
 
