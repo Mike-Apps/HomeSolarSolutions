@@ -483,5 +483,119 @@ namespace HomeSolarSolutions
             getData("73");
             this.Close();
         }
+
+        private void KansasCity74(object sender, RoutedEventArgs e)
+        {
+            getData("74");
+            this.Close();
+        }
+
+        private void SouthMissouri75(object sender, RoutedEventArgs e)
+        {
+            getData("75");
+            this.Close();
+        }
+
+        private void Fayetteville76(object sender, RoutedEventArgs e)
+        {
+            getData("76");
+            this.Close();
+        }
+
+        private void LittleRock77(object sender, RoutedEventArgs e)
+        {
+            getData("77");
+            this.Close();
+        }
+
+        private void NorthMississippi78(object sender, RoutedEventArgs e)
+        {
+            getData("78");
+            this.Close();
+        }
+
+        private void MidMississippi79(object sender, RoutedEventArgs e)
+        {
+            getData("79");
+            this.Close();
+        }
+
+        private void SouthMississippi81(object sender, RoutedEventArgs e)
+        {
+            getData("81");
+            this.Close();
+        }
+
+        private void BatonRouge82(object sender, RoutedEventArgs e)
+        {
+            getData("82");
+            this.Close();
+        }
+
+        private void NorthLousiana83(object sender, RoutedEventArgs e)
+        {
+            getData("83");
+            this.Close();
+        }
+
+        private void SouthLousiana84(object sender, RoutedEventArgs e)
+        {
+            getData("84");
+            this.Close();
+        }
+
+        private void Houston85(object sender, RoutedEventArgs e)
+        {
+            getData("85");
+            this.Close();
+        }
+
+        private void SanAntonio86(object sender, RoutedEventArgs e)
+        {
+            getData("86");
+            this.Close();
+        }
+
+        private void FtWorth87(object sender, RoutedEventArgs e)
+        {
+            getData("87");
+            this.Close();
+        }
+
+        private void Odessa88(object sender, RoutedEventArgs e)
+        {
+            getData("88");
+            this.Close();
+        }
+
+        private void Armarillo89(object sender, RoutedEventArgs e)
+        {
+            getData("89");
+            this.Close();
+        }
+
+        private void Abiline90(object sender, RoutedEventArgs e)
+        {
+            getData("90");
+            this.Close();
+        }
+
+        private void OklahomaPanhandle91(object sender, RoutedEventArgs e)
+        {
+            getData("91");
+            this.Close();
+        }
+
+        private void SouthOklahoma92(object sender, RoutedEventArgs e)
+        {
+            getData("92");
+            this.Close();
+        }
+
+        private void MidOklahoma93(object sender, RoutedEventArgs e)
+        {
+            getData("93");
+            this.Close();
+        }
     }
 }
