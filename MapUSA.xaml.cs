@@ -597,5 +597,102 @@ namespace HomeSolarSolutions
             getData("93");
             this.Close();
         }
+
+        private void Whichita94(object sender, RoutedEventArgs e)
+        {
+            getData("94");
+            this.Close();
+        }
+
+        private void Topeka95(object sender, RoutedEventArgs e)
+        {
+            getData("95");
+            this.Close();
+        }
+
+        private void NWKansas96(object sender, RoutedEventArgs e)
+        {
+            getData("96");
+            this.Close();
+        }
+
+
+        private void Lincoln97(object sender, RoutedEventArgs e)
+        {
+            getData("97");
+            this.Close();
+        }
+
+        private void NorthPlatte98(object sender, RoutedEventArgs e)
+        {
+            getData("98");
+            this.Close();
+        }
+
+        private void NorthNebraska99(object sender, RoutedEventArgs e)
+        {
+            getData("99");
+            this.Close();
+        }
+
+        private void SouixFalls100(object sender, RoutedEventArgs e)
+        {
+            getData("100");
+            this.Close();
+        }
+
+        private void Piere101(object sender, RoutedEventArgs e)
+        {
+            getData("101");
+            this.Close();
+        }
+
+        private void Piere102(object sender, RoutedEventArgs e)
+        {
+            getData("102");
+            this.Close();
+        }
+
+        private void Fargo103(object sender, RoutedEventArgs e)
+        {
+            getData("103");
+            this.Close();
+        }
+
+        private void Fargo104(object sender, RoutedEventArgs e)
+        {
+            getData("104");
+            this.Close();
+        }
+
+        private void Antler105(object sender, RoutedEventArgs e)
+        {
+            getData("105");
+            this.Close();
+        }
+
+        private void Billings106(object sender, RoutedEventArgs e)
+        {
+            getData("106");
+            this.Close();
+        }
+
+        private void Billings107(object sender, RoutedEventArgs e)
+        {
+            getData("10");
+            this.Close();
+        }
+
+        private void Butte108(object sender, RoutedEventArgs e)
+        {
+            getData("108");
+            this.Close();
+        }
+
+        private void NWMontana109(object sender, RoutedEventArgs e)
+        {
+            getData("109");
+            this.Close();
+        }
     }
 }

@@ -926,6 +926,163 @@
             </Button.Background>
         </Button>
 
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="Whichita94" Grid.Column="32" Grid.Row="20"  HorizontalAlignment="Left" Width="17" Grid.RowSpan="3" VerticalAlignment="Top" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="Topeka95" Grid.Column="34" Grid.Row="18"  HorizontalAlignment="Left" Width="17" Grid.RowSpan="3" VerticalAlignment="Top" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="NWKansas96" Grid.Column="29" Grid.Row="18"  HorizontalAlignment="Left" Width="17" Grid.RowSpan="3" VerticalAlignment="Top" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="Lincoln97" Grid.Column="32" Grid.Row="15"  HorizontalAlignment="Left" Width="17" Grid.RowSpan="3" VerticalAlignment="Top" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="NorthPlatte98" Grid.Column="28" Grid.Row="15"  HorizontalAlignment="Left" Width="17" Grid.RowSpan="3" VerticalAlignment="Top" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="NorthNebraska99" Grid.Column="27" Grid.Row="13"  HorizontalAlignment="Left" Width="17" Grid.RowSpan="3" VerticalAlignment="Top" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="SouixFalls100" Grid.Column="32" Grid.Row="12"  HorizontalAlignment="Left" Width="17" Grid.RowSpan="3" VerticalAlignment="Top" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="Piere101" Grid.Column="29" Grid.Row="10"  HorizontalAlignment="Left" Width="17" Grid.RowSpan="3" VerticalAlignment="Top" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="Piere102" Grid.Column="26" Grid.Row="11"  HorizontalAlignment="Left" Width="17" Grid.RowSpan="3" VerticalAlignment="Top" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="Fargo103" Grid.Column="32" Grid.Row="7"  HorizontalAlignment="Left" Width="17" Grid.RowSpan="3" VerticalAlignment="Top" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="Fargo104" Grid.Column="29" Grid.Row="7"  HorizontalAlignment="Left" Width="17" Grid.RowSpan="3" VerticalAlignment="Top" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+        
+                <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="Fargo104" Grid.Column="29" Grid.Row="7"  HorizontalAlignment="Left" Width="17" Grid.RowSpan="3" VerticalAlignment="Top" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="Antler105" Grid.Column="29" Grid.Row="4"  HorizontalAlignment="Left" Width="17" Grid.RowSpan="3" VerticalAlignment="Top" Margin="0,12,0,0" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="Billings106" Grid.Column="19" Grid.Row="8"  HorizontalAlignment="Left" Width="17" Grid.RowSpan="3" VerticalAlignment="Top" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="Billings107" Grid.Column="25" Grid.Row="5"  HorizontalAlignment="Left" Width="17" Grid.RowSpan="3" VerticalAlignment="Top" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="Butte108" Grid.Column="17" Grid.Row="7"  HorizontalAlignment="Left" Width="17" Grid.RowSpan="3" VerticalAlignment="Top" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="NWMontana109" Grid.Column="17" Grid.Row="4"  HorizontalAlignment="Left" Width="17" Grid.RowSpan="3" VerticalAlignment="Top" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+
+
+
 
 
 
