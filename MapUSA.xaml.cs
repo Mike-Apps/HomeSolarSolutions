@@ -694,5 +694,25 @@ namespace HomeSolarSolutions
             getData("109");
             this.Close();
         }
+
+        private void NorthWyoming110(object sender, RoutedEventArgs e)
+        {
+            getData("110");
+            this.Close();
+        }
+
+        private void SWWyoming111(object sender, RoutedEventArgs e)
+        {
+            getData("111");
+            this.Close();
+        }
+
+        private void SEWyoming112(object sender, RoutedEventArgs e)
+        {
+            getData("112");
+            this.Close();
+        }
+
+
     }
 }

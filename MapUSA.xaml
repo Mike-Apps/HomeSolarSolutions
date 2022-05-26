@@ -1080,6 +1080,34 @@
             </Button.Background>
         </Button>
 
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="NorthWyoming110" Grid.Column="22" Grid.Row="10"  HorizontalAlignment="Left" Width="17" Grid.RowSpan="3" VerticalAlignment="Top" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="SWWyoming111" Grid.Column="20" Grid.Row="13"  HorizontalAlignment="Left" Width="17" Grid.RowSpan="3" VerticalAlignment="Top" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="SEWyoming112" Grid.Column="24" Grid.Row="14"  HorizontalAlignment="Left" Width="17" Grid.RowSpan="3" VerticalAlignment="Top" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+
 
 
 
