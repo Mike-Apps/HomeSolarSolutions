@@ -147,14 +147,14 @@
         <TextBlock x:Name="MyArrayDec" Grid.Column="7" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF4FE664"/>
 
 
-        <TextBlock Grid.Row="10" Grid.ColumnSpan="2" HorizontalAlignment="Left" VerticalAlignment="Center" Text="What are my power requirements?" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Margin="8,0,0,0" />
-        <TextBlock Grid.Row="11" Grid.ColumnSpan="2"  HorizontalAlignment="Left" VerticalAlignment="Center" Text="Already know? Enter monthly kWh from utilities:" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Margin="8,0,0,0" />
+        <TextBlock Grid.Row="10" Grid.ColumnSpan="1" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Power Requirement Calculator" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Margin="8,0,0,0" />
+        <TextBlock Grid.Row="11" Grid.ColumnSpan="1"  HorizontalAlignment="Center" VerticalAlignment="Center" Text="Already know? Enter monthly kWh from utilities:" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Margin="8,0,0,0" />
         <TextBox x:Name="powerRequirementsTextBox" Grid.Column="2"  Grid.Row="11" TextWrapping="Wrap" VerticalAlignment="Center"  HorizontalAlignment="Center" Width="100" TextChanged="TextBox_TextChanged"/>
         <Button x:Name="homeRequirementsButton" Content="Home Requirements" Grid.Row="10" Grid.Column="2" HorizontalAlignment="Center"   VerticalAlignment="Center" Width="100" FontSize="10"/>
 
-        <TextBlock Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" Text="How much will my roof fit?" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" />
+        <TextBlock Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Space and Wattage Calculator?" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" />
         <Button Content="Let's find out" Grid.Row="7" Grid.Column="1"  HorizontalAlignment="Center"   VerticalAlignment="Center" Width="120" Click="Button_Click"/>
-        <TextBlock Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Your charge system should be built to handle:" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" />
+        <TextBlock Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Maximum Expected Power:" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" />
         <TextBlock x:Name="maxInstantPower" Grid.Column="1" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap" FontSize="14" FontWeight="Bold" Foreground="#FF4FE664"/>
         <Button Grid.Column="7" Content="Refrences" HorizontalAlignment="center"   Grid.Row="11" VerticalAlignment="Center" Click="Button_Click_1"/>
 

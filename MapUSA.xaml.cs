@@ -49,40 +49,17 @@ namespace HomeSolarSolutions
                 while (reader.Read())
                 {
                     _mainWindow.PanelAngle.Text = reader[0].ToString() + " degrees";  //_mainWindow.SolarCalculation...links MainWindow elements to this class
-                  
-                    //_mainWindow.JanInfo.Text = (float.Parse(_mainWindow.JanInfo.Text).ToString("N2") + " W");
                     _mainWindow.JanInfo.Text = (float.Parse(reader[1].ToString()).ToString("N2")) + " W/h";
-
                     _mainWindow.FebInfo.Text = (float.Parse(reader[2].ToString()).ToString("N2")) + " W/h";
-                    // _mainWindow.FebInfo.Text = (float.Parse(_mainWindow.FebInfo.Text).ToString("N2") + " W");
-
                     _mainWindow.MarInfo.Text = (float.Parse(reader[3].ToString()).ToString("N2")) + " W/h";
-                    // _mainWindow.MarInfo.Text = (float.Parse(_mainWindow.MarInfo.Text).ToString("N2") + " W");
-
                     _mainWindow.AprInfo.Text = (float.Parse(reader[4].ToString()).ToString("N2")) + " W/h";
-                    // _mainWindow.AprInfo.Text = (float.Parse(_mainWindow.AprInfo.Text).ToString("N2") + " W");
-
                     _mainWindow.MayInfo.Text = (float.Parse(reader[5].ToString()).ToString("N2")) + " W/h";
-                    // _mainWindow.MayInfo.Text = (float.Parse(_mainWindow.MayInfo.Text).ToString("N2") + " W");
-
                     _mainWindow.JunInfo.Text = (float.Parse(reader[6].ToString()).ToString("N2")) + " W/h";
-                    //_mainWindow.JunInfo.Text = (float.Parse(_mainWindow.JunInfo.Text).ToString("N2") + " W");
-
                     _mainWindow.JulInfo.Text = (float.Parse(reader[7].ToString()).ToString("N2")) + " W/h";
-                    // _mainWindow.JulInfo.Text = (float.Parse(_mainWindow.JulInfo.Text).ToString("N2") + " W");
-
                     _mainWindow.AugInfo.Text = (float.Parse(reader[8].ToString()).ToString("N2")) + " W/h";
-                    // _mainWindow.AugInfo.Text = (float.Parse(_mainWindow.AugInfo.Text).ToString("N2") + " W");
-
                     _mainWindow.SepInfo.Text = (float.Parse(reader[9].ToString()).ToString("N2")) + " W/h";
-                    // _mainWindow.SepInfo.Text = (float.Parse(_mainWindow.SepInfo.Text).ToString("N2") + " W");
-
                     _mainWindow.OctInfo.Text = (float.Parse(reader[10].ToString()).ToString("N2")) + " W/h";
-                    //_mainWindow.OctInfo.Text = (float.Parse(_mainWindow.OctInfo.Text).ToString("N2") + " W");
-
                     _mainWindow.NovInfo.Text = (float.Parse(reader[11].ToString()).ToString("N2")) + " W/h";
-                    // _mainWindow.NovInfo.Text = (float.Parse(_mainWindow.NovInfo.Text).ToString("N2") + " W");
-
                     _mainWindow.DecInfo.Text = (float.Parse(reader[12].ToString()).ToString("N2")) + " W/h";
                     //_mainWindow.DecInfo.Text = (float.Parse(_mainWindow.DecInfo.Text).ToString("N2") + " W");
 
@@ -812,6 +789,108 @@ namespace HomeSolarSolutions
         private void NIdaho129(object sender, RoutedEventArgs e)
         {
             getData("129");
+            this.Close();
+        }
+
+        private void NWNevada130(object sender, RoutedEventArgs e)
+        {
+            getData("130");
+            this.Close();
+        }
+
+        private void NENevada131(object sender, RoutedEventArgs e)
+        {
+            getData("131");
+            this.Close();
+        }
+
+        private void LasVegas132(object sender, RoutedEventArgs e)
+        {
+            getData("132");
+            this.Close();
+        }
+
+        private void MidNevada133(object sender, RoutedEventArgs e)
+        {
+            getData("133");
+            this.Close();
+        }
+
+        private void SECalifornia134(object sender, RoutedEventArgs e)
+        {
+            getData("134");
+            this.Close();
+        }
+
+        private void SanDiego135(object sender, RoutedEventArgs e)
+        {
+            getData("135");
+            this.Close();
+        }
+
+        private void SEMidCalifornia136(object sender, RoutedEventArgs e)
+        {
+            getData("136");
+            this.Close();
+        }
+
+        private void SanFrancisco137(object sender, RoutedEventArgs e)
+        {
+            getData("137");
+            this.Close();
+        }
+
+        private void CalifornianearReno138(object sender, RoutedEventArgs e)
+        {
+            getData("138");
+            this.Close();
+        }
+
+        private void SantaBarbra139(object sender, RoutedEventArgs e)
+        {
+            getData("139");
+            this.Close();
+        }
+
+        private void Redding140(object sender, RoutedEventArgs e)
+        {
+            getData("140");
+            this.Close();
+        }
+
+        private void NWCalifornia141(object sender, RoutedEventArgs e)
+        {
+            getData("141");
+            this.Close();
+        }
+
+        private void VerHamp142(object sender, RoutedEventArgs e)
+        {
+            getData("142");
+            this.Close();
+        }
+
+        private void RhodeIsland143(object sender, RoutedEventArgs e)
+        {
+            getData("143");
+            this.Close();
+        }
+
+        private void RhodeIsland144(object sender, RoutedEventArgs e)
+        {
+            getData("144");
+            this.Close();
+        }
+
+        private void NidMontana145(object sender, RoutedEventArgs e)
+        {
+            getData("145");
+            this.Close();
+        }
+
+        private void LowerEastMontana146(object sender, RoutedEventArgs e)
+        {
+            getData("146");
             this.Close();
         }
     }

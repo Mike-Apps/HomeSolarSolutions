@@ -1266,17 +1266,161 @@
             </Button.Background>
         </Button>
 
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="NWNevada130" Grid.Column="9" Grid.Row="13"  HorizontalAlignment="Right" Width="17" VerticalAlignment="Top"  >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="NENevada131" Grid.Column="12" Grid.Row="15"  HorizontalAlignment="Right" Width="17" VerticalAlignment="Top"  >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
 
 
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="LasVegas132" Grid.Column="11" Grid.Row="20"  HorizontalAlignment="Right" Width="17" VerticalAlignment="Top"  >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="MidNevada133" Grid.Column="9" Grid.Row="16"  HorizontalAlignment="Right" Width="17" VerticalAlignment="Top"  >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
 
 
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="SECalifornia134" Grid.Column="11" Grid.Row="23"  HorizontalAlignment="Right" Width="17" VerticalAlignment="Top"  >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
 
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="SanDiego135" Grid.Column="8" Grid.Row="23"  HorizontalAlignment="Right" Width="17" VerticalAlignment="Top"  >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
 
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="SEMidCalifornia136" Grid.Column="8" Grid.Row="19"  HorizontalAlignment="Right" Width="17" VerticalAlignment="Top"  >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
 
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="SanFrancisco137" Grid.Column="4" Grid.Row="16"  HorizontalAlignment="Right" Width="17" VerticalAlignment="Top"  >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
 
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="CalifornianearReno138" Grid.Column="7" Grid.Row="15"  HorizontalAlignment="Right" Width="17" VerticalAlignment="Top"  >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
 
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="SantaBarbra139" Grid.Column="5" Grid.Row="21"  HorizontalAlignment="Right" Width="17" VerticalAlignment="Top"  >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
 
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="Redding140" Grid.Column="6" Grid.Row="12"  HorizontalAlignment="Right" Width="17" VerticalAlignment="Top"  >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
 
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="NWCalifornia141" Grid.Column="4" Grid.Row="11"  HorizontalAlignment="Right" Width="17" VerticalAlignment="Top"  >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="VerHamp142" Grid.Column="59" Grid.Row="9"  HorizontalAlignment="Center" Width="17" Grid.RowSpan="3" VerticalAlignment="Top" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="RhodeIsland143" Grid.Column="60" Grid.Row="11"  HorizontalAlignment="Center" Width="17" Grid.RowSpan="3" VerticalAlignment="Top" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="RhodeIsland144" Grid.Column="61" Grid.Row="6"  HorizontalAlignment="Center" Width="17" Grid.RowSpan="3" VerticalAlignment="Top" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+        
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="NidMontana145" Grid.Column="21" Grid.Row="5"  HorizontalAlignment="Left" Width="17" Grid.RowSpan="3" VerticalAlignment="Top" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+
+        <Button Style="{StaticResource mapbutton}" Content="" BorderThickness="0" Click="LowerEastMontana146" Grid.Column="23" Grid.Row="8"  HorizontalAlignment="Left" Width="17" Grid.RowSpan="3" VerticalAlignment="Top" >
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="/ButtonGreen.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
 
 
 
