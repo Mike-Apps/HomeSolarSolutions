@@ -713,6 +713,106 @@ namespace HomeSolarSolutions
             this.Close();
         }
 
+        private void NWColorado113(object sender, RoutedEventArgs e)
+        {
+            getData("113");
+            this.Close();
+        }
 
+        private void Denver114(object sender, RoutedEventArgs e)
+        {
+            getData("114");
+            this.Close();
+        }
+
+        private void SWColorado115(object sender, RoutedEventArgs e)
+        {
+            getData("115");
+            this.Close();
+        }
+
+        private void SEColorado116(object sender, RoutedEventArgs e)
+        {
+            getData("116");
+            this.Close();
+        }
+
+        private void Albuquerque117(object sender, RoutedEventArgs e)
+        {
+            getData("117");
+            this.Close();
+        }
+
+        private void SENewMexico118(object sender, RoutedEventArgs e)
+        {
+            getData("118");
+            this.Close();
+        }
+
+        private void SWNewMexico119(object sender, RoutedEventArgs e)
+        {
+            getData("119");
+            this.Close();
+        }
+
+        private void Pheonix120(object sender, RoutedEventArgs e)
+        {
+            getData("120");
+            this.Close();
+        }
+
+        private void Yuma121(object sender, RoutedEventArgs e)
+        {
+            getData("121");
+            this.Close();
+        }
+
+        private void NArizona122(object sender, RoutedEventArgs e)
+        {
+            getData("122");
+            this.Close();
+        }
+
+        private void SEUtah123(object sender, RoutedEventArgs e)
+        {
+            getData("123");
+            this.Close();
+        }
+
+        private void NEUtah124(object sender, RoutedEventArgs e)
+        {
+            getData("124");
+            this.Close();
+        }
+
+        private void SaltLakeCity125(object sender, RoutedEventArgs e)
+        {
+            getData("125");
+            this.Close();
+        }
+
+        private void SWUtah126(object sender, RoutedEventArgs e)
+        {
+            getData("126");
+            this.Close();
+        }
+
+        private void SEIdaho127(object sender, RoutedEventArgs e)
+        {
+            getData("127");
+            this.Close();
+        }
+
+        private void SWIdaho128(object sender, RoutedEventArgs e)
+        {
+            getData("128");
+            this.Close();
+        }
+
+        private void NIdaho129(object sender, RoutedEventArgs e)
+        {
+            getData("129");
+            this.Close();
+        }
     }
 }
